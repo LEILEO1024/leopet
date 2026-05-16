@@ -1,0 +1,58 @@
+import { Guide } from "@/types";
+
+export const guides: Guide[] = [
+  {
+    id: 1,
+    title: "宠物睡眠与休息管理指南",
+    category: "健康信息",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/sleeping-cat,pet?random=51",
+    views: 1420,
+    slug: "chongwu-shuimian-1",
+  },
+  {
+    id: 2,
+    title: "狗狗喂养指南：该做与不该做的事",
+    category: "护理指南",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/dog-food,feeding?random=52",
+    views: 1380,
+    slug: "gouwei-weiyang-2",
+  },
+  {
+    id: 3,
+    title: "幼犬与幼猫繁殖后早期护理",
+    category: "护理指南",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/puppy-kitten,baby?random=53",
+    views: 1250,
+    slug: "youquan-huli-3",
+  },
+  {
+    id: 4,
+    title: "宠物安全合法运输指南",
+    category: "法律信息",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/pet-carrier,travel?random=54",
+    views: 1100,
+    slug: "yunshu-zhinan-4",
+  },
+  {
+    id: 5,
+    title: "家中宠物意外怀孕处理方案",
+    category: "健康信息",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/pregnant-cat,dog?random=55",
+    views: 980,
+    slug: "yiwai-huaiyun-5",
+  },
+  {
+    id: 6,
+    title: "幼猫护理全指南：喂养、如厕、首周",
+    category: "护理指南",
+    rating: 5.0,
+    image: "https://loremflickr.com/400/300/kitten,small-cat?random=56",
+    views: 890,
+    slug: "youmao-huli-6",
+  },
+];

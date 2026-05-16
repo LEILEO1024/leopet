@@ -1,0 +1,58 @@
+import { Adopter } from "@/types";
+
+export const adopters: Adopter[] = [
+  {
+    id: 1,
+    name: "张女士",
+    description: "寻找一只温顺的成年猫，有养猫经验，住房宽敞。",
+    targetType: "猫",
+    image: "https://i.pravatar.cc/200?u=zhang-nvshi",
+    views: 456,
+    slug: "zhang-nvshi-1",
+  },
+  {
+    id: 2,
+    name: "李先生",
+    description: "想领养一只小型犬，家里有院子，每天可以遛狗。",
+    targetType: "狗",
+    image: "https://i.pravatar.cc/200?u=li-xiansheng",
+    views: 789,
+    slug: "li-xiansheng-2",
+  },
+  {
+    id: 3,
+    name: "王家庭",
+    description: "四口之家寻找宠物兔，孩子已经学会如何温柔对待动物。",
+    targetType: "兔子",
+    image: "https://i.pravatar.cc/200?u=wang-jiating",
+    views: 234,
+    slug: "wang-jiating-3",
+  },
+  {
+    id: 4,
+    name: "赵小姐",
+    description: "希望领养一只会说话的鹦鹉，有充足时间陪伴。",
+    targetType: "鹦鹉",
+    image: "https://i.pravatar.cc/200?u=zhao-xiaojie",
+    views: 567,
+    slug: "zhao-xiaojie-4",
+  },
+  {
+    id: 5,
+    name: "刘阿姨",
+    description: "退休在家，想找一只安静的猫咪作伴，会给最好的照顾。",
+    targetType: "猫",
+    image: "https://i.pravatar.cc/200?u=liu-ayi",
+    views: 345,
+    slug: "liu-ayi-5",
+  },
+  {
+    id: 6,
+    name: "陈同学",
+    description: "大学生寻找仓鼠作为宿舍宠物，会认真负责照顾。",
+    targetType: "仓鼠",
+    image: "https://i.pravatar.cc/200?u=chen-tongxue",
+    views: 123,
+    slug: "chen-tongxue-6",
+  },
+];
