@@ -15,7 +15,17 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(git config *)"
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(cat /home/leo/.claude/settings.json 2>/dev/null; echo \"===\"; cat /home/leo/web_test/.claude/settings.local.json 2>/dev/null)",
+      "Read(//home/leo/.claude/**)",
+      "Bash(npx @anthropic/mcp-server-github --version)",
+      "Bash(npx github-mcp-server *)",
+      "Bash(curl -s -H \"Authorization: *\" *)",
+      "Bash(curl -s -X POST -H \"Authorization: *\" *)",
+      "Bash(curl -sf -H \"Authorization: *\" *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
     ]
   }
 }
